@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_GithubEventsViewer_GithubEventsViewerUITests : NSObject
+@end
+@implementation PodsDummy_Pods_GithubEventsViewer_GithubEventsViewerUITests
+@end

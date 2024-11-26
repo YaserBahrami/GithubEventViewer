@@ -1,0 +1,6 @@
+framework module Pods_GithubEventsViewer_GithubEventsViewerUITests {
+  umbrella header "Pods-GithubEventsViewer-GithubEventsViewerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
