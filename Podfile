@@ -6,6 +6,9 @@ target 'GithubEventsViewer' do
   use_frameworks!
 
   # Pods for GithubEventsViewer
+  pod 'SnapKit', '~> 5.7.0'
+  pod 'Moya', '~> 15.0'
+  
 
   target 'GithubEventsViewerTests' do
     inherit! :search_paths
