@@ -7,7 +7,6 @@ target 'GithubEventsViewer' do
 
   # Pods for GithubEventsViewer
   pod 'SnapKit', '~> 5.7.0'
-  pod 'Moya', '~> 15.0'
   
 
   target 'GithubEventsViewerTests' do
