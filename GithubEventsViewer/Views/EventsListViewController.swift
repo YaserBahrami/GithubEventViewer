@@ -22,7 +22,7 @@ class EventsListViewController: UIViewController {
         "Issues": "IssuesEvent",
         "Fork": "ForkEvent"
     ]
-    private let filterSegmentedControl = UISegmentedControl(items: ["Push", "Watch", "Pull Request", "Issues", "Watch"])
+    private let filterSegmentedControl = UISegmentedControl(items: ["Push", "Watch", "Pull Request", "Issues", "Fort"])
     
     private var cancellables = Set<AnyCancellable>()
     
@@ -56,7 +56,7 @@ class EventsListViewController: UIViewController {
             make.leading.trailing.equalToSuperview().inset(16)
         }
         
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "EventCell")
+        tableView.register(EventTableViewCell.self, forCellReuseIdentifier: "EventCell")
         tableView.dataSource = self
         tableView.delegate = self
         view.addSubview(tableView)
@@ -90,9 +90,10 @@ extension EventsListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath)
+        
         let event = viewModel.filteredEvents[indexPath.row]
-        cell.textLabel?.text = "\(event.type) - \(event.repo.name)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) as! EventTableViewCell
+        cell.configure(with: event)
         return cell
     }
     
