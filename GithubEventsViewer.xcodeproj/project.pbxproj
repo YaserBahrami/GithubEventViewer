@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0589C64D66A836D1A77B09F3 /* Pods_GithubEventsViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29BBB4FD3C9A774299BDB99 /* Pods_GithubEventsViewerTests.framework */; };
+		4383E39C2CF6B82300DC8A17 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39B2CF6B82300DC8A17 /* NetworkService.swift */; };
+		4383E39E2CF6B88E00DC8A17 /* GithubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39D2CF6B88E00DC8A17 /* GithubEvent.swift */; };
+		4383E3A02CF6BAC200DC8A17 /* EventsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39F2CF6BAC200DC8A17 /* EventsListViewModel.swift */; };
+		4383E3A42CF6BC6E00DC8A17 /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A32CF6BC6E00DC8A17 /* EventsListViewController.swift */; };
+		4383E3A62CF6BD8700DC8A17 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A52CF6BD8700DC8A17 /* EventDetailViewController.swift */; };
+		4383E3A82CF6DD7F00DC8A17 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A72CF6DD7F00DC8A17 /* Actor.swift */; };
+		4383E3AA2CF6DDA000DC8A17 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A92CF6DDA000DC8A17 /* Repository.swift */; };
+		4383E3AE2CF6E46D00DC8A17 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39B2CF6B82300DC8A17 /* NetworkService.swift */; };
+		4383E3AF2CF6E4B200DC8A17 /* GithubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39D2CF6B88E00DC8A17 /* GithubEvent.swift */; };
+		4383E3B02CF6E4B700DC8A17 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A72CF6DD7F00DC8A17 /* Actor.swift */; };
+		4383E3B12CF6E4BB00DC8A17 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A92CF6DDA000DC8A17 /* Repository.swift */; };
+		4383E3B42CF6F07900DC8A17 /* EventsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39F2CF6BAC200DC8A17 /* EventsListViewModel.swift */; };
 		43A26C272CF65EAE00B7AC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A26C262CF65EAE00B7AC6C /* AppDelegate.swift */; };
 		43A26C292CF65EAE00B7AC6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A26C282CF65EAE00B7AC6C /* SceneDelegate.swift */; };
 		43A26C2B2CF65EAE00B7AC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A26C2A2CF65EAE00B7AC6C /* ViewController.swift */; };
@@ -39,6 +51,13 @@
 
 /* Begin PBXFileReference section */
 		32786B853AF2D42E35F3A1E4 /* Pods-GithubEventsViewer-GithubEventsViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubEventsViewer-GithubEventsViewerUITests.debug.xcconfig"; path = "Target Support Files/Pods-GithubEventsViewer-GithubEventsViewerUITests/Pods-GithubEventsViewer-GithubEventsViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4383E39B2CF6B82300DC8A17 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4383E39D2CF6B88E00DC8A17 /* GithubEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubEvent.swift; sourceTree = "<group>"; };
+		4383E39F2CF6BAC200DC8A17 /* EventsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewModel.swift; sourceTree = "<group>"; };
+		4383E3A32CF6BC6E00DC8A17 /* EventsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
+		4383E3A52CF6BD8700DC8A17 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		4383E3A72CF6DD7F00DC8A17 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		4383E3A92CF6DDA000DC8A17 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		43A26C232CF65EAE00B7AC6C /* GithubEventsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubEventsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A26C262CF65EAE00B7AC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43A26C282CF65EAE00B7AC6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +108,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4383E3962CF6B79600DC8A17 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				43A26C262CF65EAE00B7AC6C /* AppDelegate.swift */,
+				43A26C282CF65EAE00B7AC6C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4383E3972CF6B7A600DC8A17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4383E39D2CF6B88E00DC8A17 /* GithubEvent.swift */,
+				4383E3A72CF6DD7F00DC8A17 /* Actor.swift */,
+				4383E3A92CF6DDA000DC8A17 /* Repository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4383E3982CF6B7B900DC8A17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4383E3A32CF6BC6E00DC8A17 /* EventsListViewController.swift */,
+				4383E3A52CF6BD8700DC8A17 /* EventDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4383E3992CF6B7C200DC8A17 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4383E39F2CF6BAC200DC8A17 /* EventsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4383E39A2CF6B80000DC8A17 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4383E39B2CF6B82300DC8A17 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		43A26C1A2CF65EAE00B7AC6C = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +177,15 @@
 		43A26C252CF65EAE00B7AC6C /* GithubEventsViewer */ = {
 			isa = PBXGroup;
 			children = (
-				43A26C262CF65EAE00B7AC6C /* AppDelegate.swift */,
-				43A26C282CF65EAE00B7AC6C /* SceneDelegate.swift */,
+				4383E3962CF6B79600DC8A17 /* App */,
+				4383E3972CF6B7A600DC8A17 /* Models */,
+				4383E3982CF6B7B900DC8A17 /* Views */,
+				4383E3992CF6B7C200DC8A17 /* ViewModels */,
+				4383E39A2CF6B80000DC8A17 /* Services */,
 				43A26C2A2CF65EAE00B7AC6C /* ViewController.swift */,
 				43A26C2F2CF65EB000B7AC6C /* Assets.xcassets */,
-				43A26C312CF65EB000B7AC6C /* LaunchScreen.storyboard */,
 				43A26C342CF65EB000B7AC6C /* Info.plist */,
+				43A26C312CF65EB000B7AC6C /* LaunchScreen.storyboard */,
 			);
 			path = GithubEventsViewer;
 			sourceTree = "<group>";
@@ -402,8 +468,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4383E39E2CF6B88E00DC8A17 /* GithubEvent.swift in Sources */,
 				43A26C2B2CF65EAE00B7AC6C /* ViewController.swift in Sources */,
 				43A26C272CF65EAE00B7AC6C /* AppDelegate.swift in Sources */,
+				4383E3A02CF6BAC200DC8A17 /* EventsListViewModel.swift in Sources */,
+				4383E39C2CF6B82300DC8A17 /* NetworkService.swift in Sources */,
+				4383E3A42CF6BC6E00DC8A17 /* EventsListViewController.swift in Sources */,
+				4383E3A82CF6DD7F00DC8A17 /* Actor.swift in Sources */,
+				4383E3AA2CF6DDA000DC8A17 /* Repository.swift in Sources */,
+				4383E3A62CF6BD8700DC8A17 /* EventDetailViewController.swift in Sources */,
 				43A26C292CF65EAE00B7AC6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +485,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4383E3B42CF6F07900DC8A17 /* EventsListViewModel.swift in Sources */,
+				4383E3AF2CF6E4B200DC8A17 /* GithubEvent.swift in Sources */,
+				4383E3AE2CF6E46D00DC8A17 /* NetworkService.swift in Sources */,
 				43A26C3E2CF65EB000B7AC6C /* GithubEventsViewerTests.swift in Sources */,
+				4383E3B02CF6E4B700DC8A17 /* Actor.swift in Sources */,
+				4383E3B12CF6E4BB00DC8A17 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
