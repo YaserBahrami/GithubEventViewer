@@ -22,7 +22,7 @@ class EventsListViewController: UIViewController {
         "Issues": "IssuesEvent",
         "Fork": "ForkEvent"
     ]
-    private let filterSegmentedControl = UISegmentedControl(items: ["Push", "Watch", "Pull Request", "Issues", "Fort"])
+    private let filterSegmentedControl = UISegmentedControl(items: ["Push", "Watch", "Pull Request", "Issues", "Fork"])
     
     private var cancellables = Set<AnyCancellable>()
     
