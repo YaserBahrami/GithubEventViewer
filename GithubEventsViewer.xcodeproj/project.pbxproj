@@ -20,6 +20,7 @@
 		4383E3B02CF6E4B700DC8A17 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A72CF6DD7F00DC8A17 /* Actor.swift */; };
 		4383E3B12CF6E4BB00DC8A17 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E3A92CF6DDA000DC8A17 /* Repository.swift */; };
 		4383E3B42CF6F07900DC8A17 /* EventsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383E39F2CF6BAC200DC8A17 /* EventsListViewModel.swift */; };
+		4383E3B62CF6FF9000DC8A17 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4383E3B52CF6FF8F00DC8A17 /* README.md */; };
 		43A26C272CF65EAE00B7AC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A26C262CF65EAE00B7AC6C /* AppDelegate.swift */; };
 		43A26C292CF65EAE00B7AC6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A26C282CF65EAE00B7AC6C /* SceneDelegate.swift */; };
 		43A26C2B2CF65EAE00B7AC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A26C2A2CF65EAE00B7AC6C /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		4383E3A52CF6BD8700DC8A17 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		4383E3A72CF6DD7F00DC8A17 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
 		4383E3A92CF6DDA000DC8A17 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4383E3B52CF6FF8F00DC8A17 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		43A26C232CF65EAE00B7AC6C /* GithubEventsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubEventsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A26C262CF65EAE00B7AC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43A26C282CF65EAE00B7AC6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		43A26C1A2CF65EAE00B7AC6C = {
 			isa = PBXGroup;
 			children = (
+				4383E3B52CF6FF8F00DC8A17 /* README.md */,
 				43A26C252CF65EAE00B7AC6C /* GithubEventsViewer */,
 				43A26C3C2CF65EB000B7AC6C /* GithubEventsViewerTests */,
 				43A26C462CF65EB000B7AC6C /* GithubEventsViewerUITests */,
@@ -348,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4383E3B62CF6FF9000DC8A17 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
